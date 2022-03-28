@@ -7,6 +7,7 @@ app.use(express.json());
 const usercontroller =require("./controllers/user.controllers")
 
 const connect  =require("./config/db");
+app.use("/user",usercontroller)
 
 
 
